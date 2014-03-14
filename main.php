@@ -29,11 +29,7 @@
   </head>
 
   <body>
-  Bienvenido usurario registrado (<a href="salir.php">Cerrar Sesion</a>)
-
-
-
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -46,13 +42,14 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Help</a></li>
+            <li><a href="#">Apadrinamiento</a></li>
+            <li><a href="#">Peps</a></li>
+            <li><a href="#">Protagonismo</a></li>
+            <li><a href="#">Integral</a></li>
+            <li><a href="salir.php">Salir</a></li>
           </ul>
           <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
+            <input type="text" class="form-control" placeholder="Buscar...">
           </form>
         </div>
       </div>
@@ -62,51 +59,52 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview</a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
+            <li class="active"><a href="#">General</a></li>
+            <li><a href="#">Buscar</a></li>
+            <li><a href="#">Reportes</a></li>
+            <li><a href="#">Analisis</a></li>
           </ul>
           <ul class="nav nav-sidebar">
-            <li><a href="#">Nav item</a></li>
-            <li><a href="#">Nav item again</a></li>
-            <li><a href="#">One more nav</a></li>
-            <li><a href="#">Another nav item</a></li>
-            <li><a href="#">More navigation</a></li>
+            <li><a href="#">Apadrinados</a></li>
+            <li><a href="#">Escuelas</a></li>
+            <li><a href="#">Profesores</a></li>
+            <li><a href="#">Distritos</a></li>
+            <li><a href="#">Mapas</a></li>
           </ul>
           <ul class="nav nav-sidebar">
-            <li><a href="#">Nav item again</a></li>
-            <li><a href="#">One more nav</a></li>
-            <li><a href="#">Another nav item</a></li>
+            <li><a href="#">Afiliacion</a></li>
+            <li><a href="#">Fidelizacion</a></li>
+            <li><a href="#">Cartas</a></li>
+            <li><a href="#">Donativos</a></li>
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">Dashboard</h1>
+          <h1 class="page-header">NIVEL DE AVANCE</h1>
 
           <div class="row placeholders">
             <div class="col-xs-6 col-sm-3 placeholder">
               <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
+              <h4>100%</h4>
+              <span class="text-muted">Apadrinamiento</span>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
               <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
+              <h4>100%</h4>
+              <span class="text-muted">Protagonismo Infantil</span>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
               <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
+              <h4>100%</h4>
+              <span class="text-muted">PEPS</span>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
               <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
+              <h4>100%</h4>
+              <span class="text-muted">Proyecto Integral</span>
             </div>
           </div>
 
-          <h2 class="sub-header">Section title</h2>
+          <h2 class="sub-header">Detalle</h2>
           <div class="table-responsive">
             <table class="table table-striped">
               <thead>
